@@ -5,6 +5,8 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import QImage, QPixmap
 from ultralytics import YOLO
 
+# Note: Trained model weights (best.pt) are not included in this repository.
+
 class CameraYolo(QWidget):
     def __init__(self):
         super().__init__()
